@@ -8,8 +8,8 @@ Here are some ideas to get you started:
 <img align="right" src="https://count.getloli.com/get/@:suny1798?theme=rule34">
 
 - 🔭 I’m currently working on HLJU 😜
-- 🌱 I’m currently learning Image2Poem 😭
-- 👯 I’m looking to collaborate on Image2text 😜
+- 🌱 I’m currently learning DeepSeek 😭
+- 👯 I’m looking to collaborate on Poem 😜
 - 🤔 I’m looking for help with Meter control😜
 - 💬 Ask me about Image2text😜
 - 📫 How to reach me: Email😜
