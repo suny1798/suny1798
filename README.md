@@ -8,9 +8,9 @@ Here are some ideas to get you started:
 <img align="right" src="https://count.getloli.com/get/@:suny1798?theme=rule34">
 
 - 🔭 I’m currently working on HLJU 😜
-- 🌱 I’m currently learning DeepSeek 😭
+- 🌱 I’m currently learning Diffusion 😭
 - 👯 I’m looking to collaborate on Poem 😜
-- 🤔 I’m looking for help with Meter control😜
+- 🤔 I’m looking for help with control generation😜
 - 💬 Ask me about Image2text😜
 - 📫 How to reach me: Email😜
 - ⚡ Fun fact: 😜
