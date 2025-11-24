@@ -1,12 +1,9 @@
 name: Generate Snake Animation
 
 on:
-  # 每天自动运行
   schedule:
     - cron: "0 0 * * *"
-  # 允许手动运行 workflow
   workflow_dispatch:
-  # 修改 main 分支时也会运行
   push:
     branches:
       - main
@@ -16,21 +13,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
+      - name: Generate Light Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: suny1798
-          outputs: |
-            ./profile-snake-contrib/github-contribution-grid-snake.svg
-            ./profile-snake-contrib/github-contribution-grid-snake-dark.svg
+          color_snake: "#4c8eda"
+          color_dots: "#ebedf0,#c6e48b,#7bc96f,#239a3b,#196127"
+          output: ./profile-snake-contrib/github-contribution-grid-snake.svg
+
+      - name: Generate Dark Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: suny1798
+          color_snake: "#f0f6fc"
+          color_dots: "#161b22,#0d1117,#30363d,#58a6ff,#1f6feb"
+          output: ./profile-snake-contrib/github-contribution-grid-snake-dark.svg
 
       - name: Commit and Push generated files
         uses: EndBug/add-and-commit@v7
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "Generate snake animation"
+          message: "Generate light/dark snake"
           add: "profile-snake-contrib/"
