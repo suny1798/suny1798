@@ -1,35 +1,36 @@
-name: "generate-snake-game-from-github-contribution-grid"
-description: "Generates a snake game from a github user contributions grid. Output the animation as svg"
-author: "platane"
+name: Generate Snake Animation
 
-runs:
-  using: node20
-  main: dist/index.js
+on:
+  # 每天自动运行
+  schedule:
+    - cron: "0 0 * * *"
+  # 允许手动运行 workflow
+  workflow_dispatch:
+  # 修改 main 分支时也会运行
+  push:
+    branches:
+      - main
 
-inputs:
-  github_user_name:
-    description: "github user name"
-    required: true
-  github_token:
-    description: "github token used to fetch the contribution calendar. Default to the action token if empty."
-    required: false
-    default: ${{ github.token }}
-  outputs:
-    required: false
-    description: |
-      list of files to generate.
-      one file per line. Each output can be customized with options as query string.
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-       supported query string options:
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - palette:      A preset of color, one of [github, github-dark, github-light]
-      - color_snake:  Color of the snake
-      - color_dots:   Coma separated list of dots color. 
-                      The first one is 0 contribution, then it goes from the low contribution to the highest.
-                      Exactly 5 colors are expected.
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: suny1798
+          outputs: |
+            ./profile-snake-contrib/github-contribution-grid-snake.svg
+            ./profile-snake-contrib/github-contribution-grid-snake-dark.svg
 
-      example:
-        outputs: |
-          dark.svg?palette=github-dark&color_snake=blue
-          light.svg?color_snake=#7845ab
-          ocean.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+      - name: Commit and Push generated files
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "Generate snake animation"
+          add: "profile-snake-contrib/"
