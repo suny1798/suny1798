@@ -29,3 +29,7 @@
   <b>👀 Visitor Count: </b><br>
   <img src="https://count.getloli.com/get/@:suny1798?theme=rule34" width="30%">
 </div>
+
+<div align="center">
+  <sub>📡 Powered by <a href="https://github.com/suny1798">suny1798</a></sub>
+</div>
