@@ -4,15 +4,29 @@
   
 </div>
 
-### Hi there 👋
-<img align="right" src="https://count.getloli.com/get/@:suny1798?theme=rule34">
+<div align="center">
+    
+   <img align="center"  alt="GIF" src="https://img-blog.csdnimg.cn/2019122617442217.gif" width="20%"/>
 
-![Metrics](https://metrics.lecoq.io/suny1798?template=classic&base.metadata=0&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&config.timezone=Asia%2FShanghai)
+</div>
+
+
+
+<div align="center">
+
+  ![Metrics](https://metrics.lecoq.io/suny1798?template=classic&base.metadata=0&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&config.timezone=Asia%2FShanghai)
+</div>
 <!--
 **suny1798/suny1798** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
 -->
+<div align="center">
+    <!-- <h1>
+      Hi there 👋
+    </h1> -->
+    <img align="center" src="https://count.getloli.com/get/@:suny1798?theme=rule34">
+</div>
+Here are some ideas to get you started:
+
 
 <!--
 - 🔭 I’m currently working on HLJU 😜
