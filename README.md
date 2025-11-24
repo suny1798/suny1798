@@ -6,10 +6,13 @@
 
 </div>
 
-
 <div  align="center" >
-  <img alt="GIF" src="https://img-blog.csdnimg.cn/2019122617442217.gif" width="50%">
+  <img alt="GIF2" src="/dist/1.gif" width="95%">
 </div>
+
+<!-- <div  align="center" >
+  <img alt="GIF" src="https://img-blog.csdnimg.cn/2019122617442217.gif" width="50%">
+</div> -->
 
 <!-- <div align="center">
 
