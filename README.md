@@ -6,7 +6,7 @@
 </div>
 
 <div  align="center" >
-  <img alt="GIF" src="https://img-blog.csdnimg.cn/2019122617442217.gif" width="30%">
+  <img alt="GIF" src="https://img-blog.csdnimg.cn/2019122617442217.gif" width="50%">
 </div>
 
 <!-- <div align="center">
