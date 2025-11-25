@@ -37,5 +37,5 @@
 </div>
 
 <div align="center">
-  <sub>📡 Powered by <a href="https://github.com/suny1798">suny1798</a></sub>
+  <sub>📡 Page designed by <a href="https://github.com/suny1798">suny1798</a></sub>
 </div>
