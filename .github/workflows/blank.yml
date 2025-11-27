@@ -2,7 +2,7 @@ name: Snake Contrib
 
 on:
   schedule:
-    - cron: "0 0,9,12,18 * * *"
+    - cron: "0 0,2,4,6,10,13,15 * * *"
 
   # allows to manually run the job at any time
   workflow_dispatch:
