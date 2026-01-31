@@ -1,9 +1,9 @@
 
 
 <div align="center">
-  
+  <!--
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=1000&lines=print(%22Hello%2C%20World!%22);Are%20you%20ok?&center=true&size=50&height=100)](https://git.io/typing-svg)
-
+-->
 </div>
 
 <div  align="center" >
