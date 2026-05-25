@@ -1,11 +1,11 @@
 
-
+<!--
 <div align="center">
   
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=1000&lines=print(%22Hello%2C%20World!%22);写代码,%20一定要笑&center=true&size=50&height=100)](https://git.io/typing-svg)
 
 </div>
-<!--
+
 <div  align="center" >
   <img alt="GIF2" src="/dist/1.gif" width="95%">
 </div>
